@@ -1,0 +1,142 @@
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1426px;
+    padding-bottom: 89px;
+}
+.service__container-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.service__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+}
+.service__info-title{
+font-weight: 600;
+font-size: 48px;
+line-height: 130%;
+letter-spacing: -3%;
+padding-top: 70px;
+padding-left: 40px;
+padding-bottom: 30px;
+color: #010205;
+
+}
+.service__info-description{
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0%;
+padding-top: 70px;
+padding-right: 30px;
+padding-bottom: 30px;
+color: #878C91;
+}
+.service__cards-counter{
+    display: flex;
+    gap: 128px;
+    width: 438px;
+    height: 382px;
+    background-color: #000000;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.service__card-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+}
+.service__card-text{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+
+}
+.service__card-text h3{
+font-weight: 700;
+font-style: Bold;
+font-size: 84px;
+}
+.service__card-text span{
+font-weight: 700;
+font-style: Bold;
+font-size: 84px;
+line-height: 150%;
+letter-spacing: -3%;
+ color: #99CF63;
+}
+.service__cards-circles-list{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    width: 357px;
+    height: 70px;
+    justify-content: center;
+}
+.service__cards-counter p{
+font-weight: 500;
+font-style: Medium;
+font-size: 19px;
+line-height: 170%;
+letter-spacing: 0%;
+color: #878C91;
+padding-left: 40px;
+}
+
+.service__cards-circles-item{
+font-weight: 700;
+font-style: Bold;
+font-size: 74px;
+line-height: 150%;
+letter-spacing: -3%;
+color: #fff;
+
+}
+
+.service__cards-explanation-play-icon{
+    position: absolute;
+    top: 240px;
+    left: 1180px;
+    
+
+}
+.service__cards{
+    display: flex;
+    gap: 24px;
+    bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.service__cards-explanation{
+    background-color: #00000033;
+    width: 818px;
+    height: 382px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+}
+.service__cards-explanation-title{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 140%;
+letter-spacing: 27%;
+color: #FFFFFF;
+}
