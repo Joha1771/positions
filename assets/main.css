@@ -1,1 +1,4 @@
-@import './style/components/header.css'
+@import './resets.css';
+@import './style/components/footer.css';
+@import './style/components/header.css';
+@import './style/sections/about.css';

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__wrapper{
+    display: flex;
+    gap: 351px;
+    align-items: center;
+    justify-content: center;
+    padding: 38px 80px;
+}
+.header__logo-wrapper{
+    display: flex;
+    gap: 74px;
+    align-items: center;
+    justify-content: center;
+
+}
+.header__nav-list{
+    display: flex;
+    gap: 32px;
+}
+.header__button{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+
+}
