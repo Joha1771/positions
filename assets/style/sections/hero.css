@@ -1,0 +1,131 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 53px;
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding: 0px 80px;
+}
+.hero__wrapper{
+    display: flex;
+    gap: 80px;
+}
+.hero__info-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.hero__info{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.hero__images{
+    padding-top: 40px;
+}
+
+.hero__images-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero__images-position1{
+    display: flex;
+    gap: 24px;
+}
+.hero__images-position1-wrapper{
+    position: relative; 
+}
+.hero__images-rating{
+    width: 216px;
+    height: 216px;
+    position: absolute;
+    left: 120px;
+    bottom: 110px;
+    right: 50px;
+    
+}
+.hero__images-position1-absolute-wrapper > img{
+    width: 100%;
+}
+.hero__info-title{
+font-weight: 600;
+font-size: 72px;
+line-height: 110.00000000000001%;
+letter-spacing: -3%;
+}
+
+.hero__info-description{
+font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0%;
+
+}
+.hero__button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 70px;
+}
+.hero__info-buttons{
+    display: flex;
+}
+.hero__button1-wrapper{
+    display: flex;
+    text-align: center;
+    padding: 15px 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+.hero__button1-icon{
+color: #fff;
+}
+.hero__button1-text{
+    color: #fff;
+}
+.hero__button2{
+    padding: 22px 0px 22px 56px;
+font-weight: 600;
+font-size: 16px;
+line-height: 180%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+}
+.hero__score-title{
+font-weight: 600;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+.hero__score-companies{
+    display: flex;
+    gap: 28px;
+}
+.hero__score{
+    display: flex;
+    gap: 64px;
+}
+.header__button{
+    display: flex;
+    gap: 9px;
+}
+.header__button-button{
+    background-color: #fff;
+border-radius: 30px;
+border: 1px solid black;
+}
+.header__button-button > button{
+    color: #000000;
+    padding: 13px 35px;
+}

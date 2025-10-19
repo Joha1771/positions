@@ -10,21 +10,21 @@
 }
 .header__wrapper{
     display: flex;
-    gap: 351px;
+    gap: 410px;
     align-items: center;
     justify-content: center;
     padding: 38px 80px;
 }
 .header__logo-wrapper{
     display: flex;
-    gap: 74px;
+    gap: 80px;
     align-items: center;
     justify-content: center;
 
 }
 .header__nav-list{
     display: flex;
-    gap: 32px;
+    gap: 40px;
 }
 .header__button{
     display: flex;
