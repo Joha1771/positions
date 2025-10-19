@@ -1,0 +1,221 @@
+.examples{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.examples__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+     position: relative; 
+    z-index: 100; 
+    padding: 60px 20px; 
+    
+
+}
+.examples__info-title h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    z-index: 10;
+}
+.examples__container-wrapper{
+    width: 1440px;
+    min-height: 926px;
+    position: relative;
+    background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #2a2f4a 100%);
+    border-radius: 30px;
+
+}
+.examples__info-list{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.examples__info-item:hover{
+color: #010205;
+background-color: #99CF63;
+border: 1px solid #99CF63;
+}
+
+.examples__info-item-double:hover{
+   color: #010205;
+background-color: #99CF63;
+border: 1px solid #99CF63;
+transition: 0.4s; 
+}
+.examples__info-item{
+width: 236px;
+height: 48px;
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+display: flex;
+align-items: center;
+}
+.examples__info-item-double{
+    width: 290px;
+height: 48px;
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+display: flex;
+align-items: center;
+}
+.examples__info-link{
+    padding: 13px 70px;
+    color: #FFFFFF;
+}
+.examples__info-item-green{
+    color: #010205;
+    background-color: #99CF63;
+    border: 1px solid #99CF63;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.examples__info-item-green:hover{
+    background-color:#010205 ;
+    
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+.examples__info-item-green > .examples__info-link:hover{
+color: #fff;
+}
+
+.examples__info-item-green > .examples__info-link{
+   color: #010205;
+}
+.examples__bc-image1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    border-radius: 30px;
+}
+.examples__bc-image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+.examples__bc-image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 30px;
+}
+.examples__bc-image2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.examples__boxes{
+    position: relative; 
+    z-index: 100; 
+    display: flex;
+    gap: 54px;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 107px;
+}
+.examples__boxes-circle{
+    position: relative;
+}
+.examples__boxes-inside-circle{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 33%;
+    left: 33%;
+}
+.examples__boxes-box2-item{
+    display: flex;
+    flex-direction: column;
+    gap: 356px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+}
+.examples__boxes-box2{
+    position: relative;
+
+}
+.examples__boxes-box2-item1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+.examples__boxes-box2-item1 hr{
+    width: 54px;
+    height: 0;
+    align-items: center;
+    color: #ffffff;
+}
+.examples__boxes-box2-item p{
+        color: #fff;
+            font-size: 17px;
+    font-weight: 600;
+    font-style: SemiBold;
+}
+.examples__boxes-box2-item1 p{
+    font-size: 17px;
+    font-weight: 600;
+    font-style: SemiBold;
+}
+.examples__boxes-box3{
+    position: relative;
+}
+
+.examples__boxes-box3-item{
+    display: flex;
+    flex-direction: column;
+    gap: 356px;
+    position: absolute;
+    top: 6%;
+    left: 13%; 
+}
+.examples__boxes-box3-item1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.examples__boxes-box3-item1 hr{
+        width: 54px;
+    height: 0;
+    align-items: center;
+    color: #ffffff;
+}
+.examples__boxes-box3-item1 p{
+        font-size: 17px;
+    font-weight: 600;
+    font-style: SemiBold;
+}
+
+.examples__boxes-box3-item p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: SemiBold;
+}
